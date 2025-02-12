@@ -21,4 +21,13 @@ class profileController extends Controller
         $profile = Profile::findOrFail($request->id);
         return view('profile.details',compact('profile'));
     }
+    function create() {
+
+        return view('profile.create');
+    }
+
+    function store(Request $request) {
+
+        return view('profile.store',$request);
+    }
 }

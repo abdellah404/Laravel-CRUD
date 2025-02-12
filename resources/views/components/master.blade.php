@@ -13,7 +13,7 @@
     @include('partials.nav')
 
     <main>
-        <div class="m-3">
+        <div class="container">
             {{$slot}}
             </div>
     </main>

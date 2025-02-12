@@ -1,28 +1,12 @@
-<x-master>
+<x-master title="homepage">
 
-<x-alert type="warning">  hey </x-alert>
-<table class="table">
+{{-- <x-alert type="warning" >  hey </x-alert> --}}
 
-
-    <tr>
-        <th>id</th>
-        <th>name</th>
-        <th>email</th>
-    </tr>
+<div class="row">
 
     @foreach ($users as $user)
-
-    <tr>
-        <td>{{$user['id']}}</td>
-        <td>{{$user['name']}}</td>
-        <td>{{$user['email']}}</td>
-    </tr>
-
-    @endforeach
-
-
-
-
-</table>
+<x-users-card :user="$user "></x-users-card>
+@endforeach
+</div>
 
 </x-master>

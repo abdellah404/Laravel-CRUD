@@ -19,7 +19,7 @@
                 <a class="nav-link active" aria-current="page" href="/home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/profile">Profile</a>
+                <a class="nav-link" href="/profiles">Profiles</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/settings">Settings</a>

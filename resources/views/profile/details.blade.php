@@ -1,5 +1,5 @@
 <x-master title="profiles" >
-     {{$profile->id}}
+     {{$profile['id']}}
 
 
 
